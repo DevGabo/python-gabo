@@ -10,7 +10,7 @@ def generate_pie_chart():
     #plt.close()
 
     fig, ax = a.subplots()
-    ax.pie(values,labels=labels)
+    a.pie(values,labels=labels)
     a.savefig('pie.png')
     a.close()
     #pylot.show()
